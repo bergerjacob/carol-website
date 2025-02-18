@@ -130,6 +130,15 @@ footer {
   padding: 20px 0;
 }
 
+footer a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underlines */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover (optional) */
+}
+
 
 
 @media (max-width: 900px) {
