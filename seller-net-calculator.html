@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Seller Net Proceeds Calculator - Carol Williams</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="calculator-style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <header>
+        <div class="container">
+            <h1>Carol Williams</h1>
+            <h2>Your Portland Broker</h2>
+        </div>
+    </header>
+
+            <main>
+        <section class="calculator-section">
+            <div class="container">
+                <h2>Seller Net Proceeds Calculator</h2>
+                <p>Use this tool to estimate your net proceeds from a home sale.</p>
+                
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="salePrice">Home Sale Price ($)</label>
+                        <input type="number" id="salePrice" placeholder="e.g., 675000">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="commissionRate">Buyer's Agent Commission (%)</label>
+                        <input type="number" id="commissionRate" placeholder="e.g., 2.5">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="closingCosts">Seller-Paid Closing Costs ($)</label>
+                        <input type="number" id="closingCosts" placeholder="e.g., 18000">
+                    </div>
+
+                    <button class="button" id="calculateBtn">Calculate</button>
+                </div>
+
+                <div id="results" class="results-container" style="display: none;">
+                    <h3>Estimated Net Proceeds</h3>
+                    <p><strong>Total Commission:</strong> <span id="totalCommission"></span></p>
+                    <p><strong>Total Seller Costs:</strong> <span id="totalCosts"></span></p>
+                    <hr class="results-hr">
+                    <p class="net-proceeds"><strong>Final Seller Net:</strong> <span id="netProceeds"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+            <footer>
+        <div class="container">
+            <p>&copy; 2025 Carol Williams - myportlandbroker.com | <a href="https://bergerj.com">Created by Jacob Berger</a></p>
+        </div>
+    </footer>
+
+            <script src="calculator-script.js"></script>
+    </body>
+</html>

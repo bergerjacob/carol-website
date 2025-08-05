@@ -1,0 +1,77 @@
+/* Calculator Section Styling */
+.calculator-section {
+      padding: 40px 0;
+        text-align: center;
+}
+
+.calculator-form {
+      max-width: 500px;
+        margin: 20px auto;
+        padding: 30px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: left;
+}
+
+.form-group {
+      margin-bottom: 20px;
+}
+
+.form-group label {
+      display: block;
+        margin-bottom: 8px;
+        font-weight: 700;
+        color: #333;
+}
+
+.form-group input {
+      width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Important for padding and width */
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+}
+
+#calculateBtn {
+      width: 100%;
+        padding: 15px;
+        font-size: 1.2em;
+        font-weight: 700;
+}
+
+/* Results Styling */
+.results-container {
+      max-width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #eef7ff;
+        border: 1px solid #cce4ff;
+        border-radius: 8px;
+        text-align: left;
+}
+
+.results-container h3 {
+      text-align: center;
+        margin-top: 0;
+        color: #0056b3;
+}
+
+.results-container p {
+      font-size: 1.1em;
+        margin: 10px 0;
+}
+
+.results-hr {
+      border: 0;
+        border-top: 1px solid #cce4ff;
+        margin: 15px 0;
+}
+
+.net-proceeds {
+      font-weight: 700;
+        font-size: 1.2em !important;
+        color: #333;
+}
